@@ -1,8 +1,8 @@
 from datetime import datetime
 from decimal import Decimal, InvalidOperation
 
-from models.operation import OperationCreate
-from repositories.operation_repository import OperationRepository
+from src.models.operation import OperationCreate
+from src.repositories.operation_repository import OperationRepository
 
 
 class OperationService:

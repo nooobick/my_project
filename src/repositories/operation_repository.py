@@ -1,5 +1,5 @@
-from models.operation import OperationCreate
-from db.connection import db_cursor
+from src.models.operation import OperationCreate
+from src.db.connection import db_cursor
 
 
 class OperationRepository:

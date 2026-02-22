@@ -3,9 +3,9 @@ from tkinter import messagebox, ttk
 
 import customtkinter as ctk
 
-from db.connection import DatabaseError
-from services.operation_service import OperationService
-from ui.dialogs.operation_dialog import OperationDialog
+from src.db.connection import DatabaseError
+from src.services.operation_service import OperationService
+from src.ui.dialogs.operation_dialog import OperationDialog
 
 logger = logging.getLogger(__name__)
 

@@ -1,8 +1,8 @@
 import customtkinter as ctk
 
-from repositories.operation_repository import OperationRepository
-from services.operation_service import OperationService
-from ui.views.operations_view import OperationsView
+from src.repositories.operation_repository import OperationRepository
+from src.services.operation_service import OperationService
+from src.ui.views.operations_view import OperationsView
 
 
 class FinanceApp(ctk.CTk):
