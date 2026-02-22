@@ -1,0 +1,6 @@
+pip freese
+customtkinter
+mysql-connector-python
+matplotlib
+pandas
+openpyxl
